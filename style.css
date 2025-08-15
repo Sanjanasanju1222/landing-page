@@ -1,0 +1,65 @@
+* {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    background-image: linear-gradient(#ffffff, #ebdcff);
+}
+.btn{
+    background-color:#872bff;
+    border-radius: 30px;
+    padding: 16px 32px;
+    color: white;
+    border: none;
+    cursor:pointer ;
+    margin-right: 20px;
+}
+.btn-white{
+    border-radius: 30px;
+    border:2px solid #ebdcff;
+    padding: 16px 32px;
+    cursor:pointer ;
+    margin-right: 20px;
+    color: rgb(203, 24, 150);
+
+}
+
+#banner {
+    background-color: white;
+    margin: 100px auto 120px auto;
+    border: 2px solid #872bff10;
+    padding: 20px 30px;
+    background-image: url("../images/hero-bg.png");
+     width: 87.5%;
+    border-radius: 40px;
+}
+#banner-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner-content {
+    width: 50%;
+
+}
+.banner-content *{
+    margin-bottom: 20px;
+}
+.banner-content h1{
+    font-size: 60px;
+    font-weight: bold;
+}
+.banner-content p{
+    font-weight: medium;
+    color:gray;
+    font-size: 18px;
+}
+.banner-content h1 span{
+    color: deeppink;
+}
+.banner-image{
+    width: 600px;
+}
